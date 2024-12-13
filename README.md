@@ -2,7 +2,7 @@
 
 Target was to learn read and work with excel files. Filter relevant data, generate my own tables and visualise prepared statistics.
 
-Work was made based on the following statistics:
+Project was made based on the following statistics:
 
 https://app.powerbi.com/view?r=eyJrIjoiMTI5NWVjNzUtMWJhYi00MzBlLThhMTUtYTVjNTUzY2M4ZWQyIiwidCI6IjNjMjk2MzFmLTAyN2EtNGFlYy05OGQxLWJlMGNjODg4MzAxNiIsImMiOjl9
 
