@@ -5,7 +5,7 @@ The main target was to learn how to import files and work with them, how to sort
 
 3 different projects were made based on dashboards which I’ve made before with Power BI.
 
-### Declared crops by groups in 2024:
+### Declared crops by groups in 2024.
 
 ### Change in winter cereals declared area in 2024 compared to 2023.
 
