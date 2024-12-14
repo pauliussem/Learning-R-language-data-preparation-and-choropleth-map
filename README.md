@@ -6,7 +6,7 @@ Project was made based on the following statistics:
 
 https://app.powerbi.com/view?r=eyJrIjoiMTI5NWVjNzUtMWJhYi00MzBlLThhMTUtYTVjNTUzY2M4ZWQyIiwidCI6IjNjMjk2MzFmLTAyN2EtNGFlYy05OGQxLWJlMGNjODg4MzAxNiIsImMiOjl9
 
-### Paveiksliukas 1
+![R1_1](https://github.com/user-attachments/assets/c5186d95-70a7-4f6a-b279-0d60665264d0)
 
 Note. Numbers are a bit different, since I‘ve used current date data and officialy we are providing statistics exactly after declaration.
 
@@ -19,7 +19,9 @@ Imported data array about declared area of plants and plants classifier.
     kodu_plotas <- read_excel("C:/R/deklaruotos_naudmenos_2022_2024.xlsx", col_names =TRUE)
 
     paseliu_kl <- read_excel("C:/R/paseliu_klasifikatorius.xlsx", col_names = TRUE)
-### Paveiksliukas 2
+    
+![R1_2](https://github.com/user-attachments/assets/1a846539-2872-413a-a571-37f76415c44b)
+
 
 ### Step 3: 
 Since I am going to use IDs to connect these two tables, deleted unecessary column about validation of plant.
@@ -39,7 +41,9 @@ Filtered data about year 2024 and 2023 in different tables, so I could count cha
 
     plotas2023 <- plotas_merged %>% filter(METAI == 2023)
 
-### Paveiksliukas 3
+
+![R1_3](https://github.com/user-attachments/assets/f99823c2-b137-45f8-95d9-230ab5d84627)
+
 
 ### Step 6:
 
@@ -92,7 +96,8 @@ Grouped by plant group and summarised declared area of each group.
         summarise(sumplotas = sum(PLOTAS), .groups = 'drop') %>% 
         as.data.frame()
 
-### Paveiksliukas 4
+![R1_4](https://github.com/user-attachments/assets/c5907404-12f1-403d-b646-2880d4e4cec2)
+
 
 ## ggplot2()
 
@@ -109,7 +114,9 @@ Used reoder, to provide descending order of bars. Picked bar colors, separated t
     labs(y="Deklaruotas plotas, ha", x = "Augalų grupė", title = "Deklaruotas žemės ūkio naudmenų plotas pagal augalų grupes")+
     theme_light()
 
-### Paveiksliukas 5
+
+![R1_5](https://github.com/user-attachments/assets/cf6c3718-ec9a-4272-af4a-a5622deb9a27)
+
 
 ### Step 14: 
 Using ggplot2 created column chart of declared area of plants. 
@@ -125,7 +132,7 @@ Used reoder, to provide descending order of bars. Picked bar colors, separated t
     theme(plot.title = element_text(hjust = 0.5))+
     theme_light()
 
-### Paveiksliukas 6
+![R1_6](https://github.com/user-attachments/assets/bbf3f0fb-84e3-48e3-b603-63255dcd6ce8)
 
 
 ### Insights
