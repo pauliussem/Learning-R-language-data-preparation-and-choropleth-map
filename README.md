@@ -5,7 +5,7 @@ Shape maps were made based on the following statistics:
 
 https://app.powerbi.com/view?r=eyJrIjoiYWQ1YjQ3ZGMtOGQxNi00MGI1LTliMzAtZjhkY2YwYTY2NzliIiwidCI6IjNjMjk2MzFmLTAyN2EtNGFlYy05OGQxLWJlMGNjODg4MzAxNiIsImMiOjl9
 
-### Paveiksliukas 1
+![R2_1](https://github.com/user-attachments/assets/646033f3-0287-4ba1-8e3a-55eebb98629f)
 
 ### Step 1: 
 Imported necessary libraries.
@@ -74,7 +74,8 @@ Created new column with a change of declared area in 2024 compared to 2023.
 
     pokytis$pokytis <- (pokytis$sumplotas.x - pokytis$sumplotas.y)
 
-### Paveiksliukas 2
+![R2_2](https://github.com/user-attachments/assets/9c62004c-ec9d-4084-a917-6baf501b579d)
+
 
 ### Step 11:
 
@@ -112,7 +113,10 @@ Using ggplot2 created choropleth map with scale fill, regarding change of winter
     ggplot() +
         geom_sf(aes(fill=merged$pokytis), j, show.legend =  FALSE) +
         scale_fill_gradient( low = "blue", high = "#115a9e")
-### Paveiksliukas 3
+
+
+![R2_3](https://github.com/user-attachments/assets/940bbe4e-926f-4c8a-aed3-49113d228293)
+
 
 ### Step 16: 
 
@@ -123,7 +127,8 @@ Created choropleth map with labels.
         geom_label(aes(x=merged$Long, y=merged$Lat,label=merged$SAV_PAV, color = "red"), label.size = NA, size = 3, show.legend = FALSE)+
         scale_fill_gradient( low = "blue", high = "#115a9e")
 
-### Paveiksliukas 4
+
+![R2_4](https://github.com/user-attachments/assets/dab64c07-d360-496d-8a91-b2ab7287c524)
 
 
 ## Insights:
