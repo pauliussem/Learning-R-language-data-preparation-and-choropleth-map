@@ -6,7 +6,8 @@ Project was made based on the following statistics:
 
 https://app.powerbi.com/view?r=eyJrIjoiYjVkM2Y5ZDktZmM3NS00MmNjLWExYjUtMmI5YmZkMWQxYzY2IiwidCI6IjNjMjk2MzFmLTAyN2EtNGFlYy05OGQxLWJlMGNjODg4MzAxNiIsImMiOjl9
 
-### Paveiksliukas 1
+![R3_1](https://github.com/user-attachments/assets/ba4c7366-f908-4799-b50a-7ce6c7619cd0)
+
 
 NOTE. Data only about public persons.
 
@@ -20,7 +21,8 @@ Imported data array about declared area of each public person by municipality.
 
     valdu_plotas <- read_excel("N:/ProjektasR/valdu_plotas.xlsx", col_names =TRUE)
 
-### Paveiksliukas 2
+![R3_2](https://github.com/user-attachments/assets/b3586aaa-ef9a-4be9-8e21-449db21ab5b4)
+
 
 ### Step 3: 
 
@@ -104,7 +106,9 @@ Using ggplot2 created 2 lines charts.
         geom_point()+
         geom_text(aes(label = plotas), colour = "red")
 
-### Paveiksliukas 3
+
+![R3_3](https://github.com/user-attachments/assets/3d6ccbd5-4605-46d1-bd04-fc6bcb6f72e5)
+
 
 #### Provided applications by declared area intervals.
 
@@ -117,7 +121,8 @@ Using ggplot2 created 2 lines charts.
         geom_point()+
         geom_text(aes(label = paraiskos), colour = "red")
 
-### Paveiksliukas 4
+
+![R3_4](https://github.com/user-attachments/assets/7b964867-6549-492d-a419-40832f62f5e2)
 
 ## Insights
 
